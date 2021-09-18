@@ -1,11 +1,22 @@
+body{
+    background-color: indigo;
+    color:lavenderblush;
+}
+
 .grid{
     display:flex;
     flex-wrap:wrap;
     height:300px;
     width:400px;
-    margin-top:20px;
+    
+    border-radius: 14px;
+background: #e62727;
+box-shadow:  20px 20px 60px #7c0808,
+             -20px -20px 60px #b33f0a;
+             margin:50px auto 0 auto;
 }
 
 h2{
-text-align:center;
+    text-align:center;
+    
 }
